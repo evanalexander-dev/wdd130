@@ -11,8 +11,8 @@
 
     --nav-background-color: #000000;
     --nav-link-color: #FFFFFF;
-    --nav-hover-link-color: #FFFFFF;
-    --nav-hover-background-color: #000000;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #FFFFFF;
 }
 
 body {
