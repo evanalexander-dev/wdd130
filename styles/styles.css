@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -19,6 +28,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -31,12 +41,14 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid #00000033;
-    padding: 1rem;
-    background-color: darkslategray;
-    color: white;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 80px;
+    left: 150px;
 }
 
 aside img {
@@ -48,4 +60,17 @@ footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid #00000033;
+    padding: 1rem;
+    background-color: lightblue;
+    color: darkslategray;
+}
+
+.indent {
+    padding-left: 2rem;
 }
