@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+    --primary-color: #6EA4BF;
+    --secondary-color: #41337A;
+    --accent1-color: #C2EFEB;
+    --accent2-color: #ECFEE8;
+
+    --heading-font: 'Bebas Neue', sans-serif;
+    --paragraph-font: 'Red Hat Text', sans-serif;
+
+    --nav-background-color: #FFF;
+    --nav-link-color: #000;
+    --nav-hover-link-color: #FFF;
+    --nav-hover-background-color: #000;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    margin: 1rem auto;
+    max-width: 1536px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav a {
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    transition: background-color 0.25s, color 0.25s;
+}
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+    color: white;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 1rem;
+    padding: 10px;
+    background-color: #0006;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #C2EFEBAA;
+}
+
+.hero article img {
+    float: right;
+    height: 7.5rem;
+    width: auto;
+}
+
+footer nav a img {
+    width: 2.5rem;
+}

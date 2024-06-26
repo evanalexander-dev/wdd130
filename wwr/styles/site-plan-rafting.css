@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
 
 :root {
-    --primary-color: #41337A;
-    --secondary-color: #6EA4BF;
+    --primary-color: #6EA4BF;
+    --secondary-color: #41337A;
     --accent1-color: #C2EFEB;
     --accent2-color: #ECFEE8;
 
     --heading-font: 'Bebas Neue', sans-serif;
     --paragraph-font: 'Red Hat Text', sans-serif;
 
-    --nav-background-color: #000000;
-    --nav-link-color: #FFFFFF;
-    --nav-hover-link-color: #000000;
-    --nav-hover-background-color: #FFFFFF;
+    --nav-background-color: #FFF;
+    --nav-link-color: #000;
+    --nav-hover-link-color: #FFF;
+    --nav-hover-background-color: #000;
 }
 
 body {
