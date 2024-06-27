@@ -7,19 +7,35 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
 }
 
 h1 {
     color: steelblue;
+    padding: 1rem;
+    border-bottom: 1px solid steelblue;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -29,26 +45,29 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0.5rem;
+}
+
+main p {
+    padding: 0.5rem;
 }
 
 p {
     padding: 0;
 }
 
-main {
-    max-width: 840px;
-}
-
 aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
     position: absolute;
     top: 80px;
-    left: 150px;
+    left: 140px;
     color: white;
 }
 
@@ -74,4 +93,9 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
