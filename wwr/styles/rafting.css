@@ -149,7 +149,7 @@ header nav a:hover {
     align-items: center;
 }
 
-.history #p1 {
+.history #history-p1 {
     grid-area: 2/1/3/2;
 }
 
@@ -161,7 +161,7 @@ header nav a:hover {
     justify-self: center;
 }
 
-.history #p2 {
+.history #history-p2 {
     grid-area: 2/3/3/4;
 }
 
