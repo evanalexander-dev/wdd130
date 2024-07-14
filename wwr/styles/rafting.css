@@ -60,6 +60,7 @@ header nav {
 
 header nav a {
     background-color: var(--nav-background-color);
+    border-right: 1px solid var(--accent1-color);
     color: var(--nav-link-color);
     transition: background-color 0.5s, color 0.5s;
     display: flex;
@@ -72,10 +73,6 @@ header nav a {
 header nav a:first-child {
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-}
-
-header nav a {
-    border-right: 1px solid var(--accent1-color);
 }
 
 header nav a:last-child {
@@ -218,7 +215,7 @@ header nav a:hover {
     border-radius: 0.5rem;
 }
 
-.contact-info h2 {
+.contact-info h1 {
     grid-area: 1/1/2/3;
     display: flex;
     justify-content: center;
